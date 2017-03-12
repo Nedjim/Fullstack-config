@@ -151,7 +151,7 @@ $ npm start
 $ npm run bundle-dev
 ```
 
-## 4 - Server Heroku
+## 4 - Heroku
 ```
 $ heroku create
 $ heroku git:remote -a nom-du-repo-heroku

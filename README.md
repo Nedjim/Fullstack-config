@@ -90,7 +90,7 @@ module.exports = {
 USER_DB=XXX
 PASSWORD_DB=XXX
 ```
-### config.js
+#### config.js
 
 ```js
 const dotenv = require('dotenv').config();

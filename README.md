@@ -22,7 +22,7 @@ $ npm i -D style-loader css-loader sass-loader node-sass
 
 |  _ package.json  
 |  _ webpack.config.js  
-|  _ .env
+|  _ .env  
 |  _ config.js  
 |  _ Procfile  
 |  _ .gitignore  
@@ -85,12 +85,11 @@ module.exports = {
 ```
 
 ### Variables d'environnement
+./.env
 ```
 USER_DB=XXX
 PASSWORD_DB=XXX
 ```
-    BDD MLab
-
 ### config.js
 
 ```js

@@ -119,7 +119,7 @@ npm-debug.log
 .env
 ```
 
-## Route express 
+### Route express 
 
 index.js
 
@@ -147,4 +147,15 @@ Sur deux consoles différentes, lancer les commandes suivantes:
 ```
 $ npm start
 $ npm run bundle-dev
+```
+
+## 4 - Server Heroku
+```
+$ heroku create
+$ heroku git:remote -a nom-du-repo-heroku
+// aller dans le dashboard : relier à github
+$ heroku config:set NPM_CONFIG_PRODUCTION=false
+$ git push heroku master
+//visualisation
+$ heroku open
 ```

@@ -158,6 +158,5 @@ $ heroku git:remote -a nom-du-repo-heroku
 // aller dans le dashboard : relier à github
 $ heroku config:set NPM_CONFIG_PRODUCTION=false
 $ git push heroku master
-//visualisation
 $ heroku open
 ```

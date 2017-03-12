@@ -141,6 +141,8 @@ app.listen(config.port, () => {
 });
 
 ```
+Créer les autres fichiers de l'arborescence.
+
 
 ## 3 - Execution
 Sur deux consoles différentes, lancer les commandes suivantes:   

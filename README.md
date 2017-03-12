@@ -143,7 +143,7 @@ app.listen(config.port, () => {
 ```
 
 ## 3 - Execution
-    Sur deux consoles différentes
+Sur deux consoles différentes, lancer les commandes suivantes:   
 ```
 $ npm start
 $ npm run bundle-dev
